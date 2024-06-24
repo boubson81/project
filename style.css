@@ -1,0 +1,63 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f0f2f5;
+}
+#survery-form{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px ;
+    background-color: aquamarine;
+    color: #020202;
+}
+h1{
+    text-align: center;
+    background-color: aquamarine ;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px ;
+}
+p{
+    text-align: center;
+    background-color: aquamarine;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px ;
+}
+label{
+    display: block;
+}
+footer{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px ;
+    background-color: brown;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 10px 0;
+}
+#Nom{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px 0;
+}
+#email{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px 0;
+}
+#Number{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px 0;
+}
+textarea{
+    width: 80%;
+    border-radius: 0 10px;
+}

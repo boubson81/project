@@ -1,1 +1,50 @@
-console.log("Salut ")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'enquête</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Formulaire d'enquête</h1>
+    <p id="Description">Merci de remplir le Formulaire</p>
+    <form action="#" id="survery-form"> 
+        <label for="Nom" id="Nom-label">Nom:</label>
+        <input type="text" name="Nom" id="Nom" placeholder="Entrez votre nom" required>
+        <label for="email" id="email-label">email:</label>
+        <input type="text" name="email" id="email" placeholder="Entrez votre e-mail" required>
+        <label for="Number" id="Number-label">Number:</label>
+        <input type="text" name="Number" id="Number" placeholder="Entrez votre Number" min="0" max="100" required>
+        <label for="sexe" id="sexe">Sexe:</label>
+        <select name="" id="dropdown">
+            <option value="option1">Masculin</option>
+            <option value="option2">Feminin</option>
+        </select>
+        <label for="">choix:</label>
+        <input type="radio" name="choice" id="radio1" value="radio1">
+        <label for="radio1">Option 1</label>
+        <input type="radio" name="choice" id="radio2" value="radio2">
+        <label for="radio2">Option 2</label>
+        <label for="">Interêt</label>
+        <input type="checkbox" name="interst" id="checkbox1" value="checkbox1">
+        <label for="checkbox1">Musique</label>
+        <input type="checkbox" name="interst" id="checkbox2" value="checkbox2">
+        <label for="checkbox2">Jeu</label>
+        <textarea name="comments" id="comments" placeholder="AJOUTER UN COMMENTAIRE"></textarea>
+        <button type="submit">soumettre</button>
+    </form>
+    <footer>&copy2024; BOUBS 
+        
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
